@@ -43,6 +43,10 @@ avatar: assets/images/pan1.jpg
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "pjw2146087.github.io" # the base hostname & protocol for your site
 
+###终于搞明白了，github提供的url是pjw2146087.github.io，这个不能变
+###以github为准，正确地址应该是pjw2146087.github.io/（仓库名）
+###在本文件中，上方的baseurl和url要和github对应上，不然会出现资源加载问题。
+
 # Social settings
 # Make sure to include the full url including protocol, e.g. https://github.com/chrisbobbe
 twitter_url:
